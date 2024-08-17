@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/nvidia/cuda:12.6.0-cudnn-runtime-ubuntu22.04 docker://registry.cn-hangzhou.aliyuncs.com/ultraseven/nvidia/cuda:12.6.0-cudnn-runtime-ubuntu22.04
+        skopeo copy docker://docker.io/nvidia/cuda:12.6.0-cudnn-runtime-ubuntu22.04 docker://registry.cn-hangzhou.aliyuncs.com/ultraseven/docker_test
